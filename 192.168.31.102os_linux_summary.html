@@ -1,0 +1,404 @@
+<html>
+<head>
+<style type=text/css>
+    body        {font:12px Courier New,Helvetica,sansserif; color:black; background:White;}
+    table,tr,td {font:12px Courier New,Helvetica,sansserif; color:Black; background:#FFFFCC; padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;} 
+    th          {font:bold 12px Courier New,Helvetica,sansserif; color:White; background:#0033FF; padding:0px 0px 0px 0px;} 
+    h1          {font:bold 12pt Courier New,Helvetica,sansserif; color:Black; padding:0px 0px 0px 0px;} 
+</style>
+</head>
+<body>
+<h1>系统基本信息</h1>
+<table width=68% border=1 bordercolor=#000000 cellspacing=0px style=border-collapse:collapse>
+<tr>
+    <td>巡检时间 </td>
+<td> Mon Dec 28 20:58:01 CST 2020</td>
+  </tr>
+<tr>
+    <td>主机名 </td>
+<td> node1</td>
+  </tr>
+<tr>
+    <td>系统版本 </td>
+<td> CentOS Linux release 7.6.1810 (Core)</td>
+  </tr>
+<tr>
+    <td>内核版本 </td>
+<td> 3.10.0-957.el7.x86_64</td>
+  </tr>
+<tr>
+    <td>架构 </td>
+<td> CPU=x86_64;OS=64-bit</td>
+  </tr>
+</table>
+<h1>cpu信息</h1>
+<table width=68% border=1 bordercolor=#000000 cellspacing=0px style=border-collapse:collapse>
+<tr>
+    <td>线程 </td>
+<td> physical = 1, cores = 2, virtual = 2, hyperthreading = no</td>
+  </tr>
+<tr>
+    <td>cpu型号 </td>
+<td> 192.168.31.102os_linux_summary.html Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz</td>
+  </tr>
+<tr>
+    <td>速度 </td>
+<td> 2* 2712.005</td>
+  </tr>
+<tr>
+    <td>缓存 </td>
+<td> 2* 3072 KB</td>
+  </tr>
+<tr>
+    <td>CPU空闲率(%) </td>
+<td> 84%</td>
+  </tr>
+</table>
+<h1>ip网络信息</h1>
+<table width=68% border=1 bordercolor=#000000 cellspacing=0px style=border-collapse:collapse>
+<tr>
+    <th>interface </th>
+<th> status </th>
+<th> ipadds </th>
+<th> mtu </th>
+<th> Speed </th>
+<th> Duplex</th>
+  </tr>
+<tr>
+    <td>ens33 </td>
+<td> up </td>
+<td> 192.168.31.102 </td>
+<td> 1500 </td>
+<td> 1000Mb/s </td>
+<td> Full</td>
+  </tr>
+<tr>
+    <td>lo </td>
+<td> up </td>
+<td> 127.0.0.1 </td>
+<td> 65536 </td>
+<td> </td>
+<td></td>
+  </tr>
+</table>
+<h1>cpu使用率</h1>
+<table width=68% border=1 bordercolor=#000000 cellspacing=0px style=border-collapse:collapse>
+<tr><td>
+  <pre style="font-family:Courier New; word-wrap: break-word; white-space: pre-wrap; white-space: -moz-pre-wrap" >
+  #######################################  cpu使用率  #######################################
+Linux 3.10.0-957.el7.x86_64 (node1) 	12/28/2020 	_x86_64_	(2 CPU)
+
+08:58:02 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+08:58:12 PM  all    1.00    0.00    2.93    0.00    0.00    1.88    0.00    0.00    0.00   94.19
+08:58:12 PM    0    1.01    0.00    3.35    0.00    0.00    1.23    0.00    0.00    0.00   94.41
+08:58:12 PM    1    0.99    0.00    2.41    0.00    0.00    2.52    0.00    0.00    0.00   94.07
+
+08:58:12 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+08:58:22 PM  all    1.03    0.00    2.51    0.11    0.00    1.03    0.00    0.00    0.00   95.33
+08:58:22 PM    0    1.14    0.00    2.74    0.23    0.00    1.25    0.00    0.00    0.00   94.64
+08:58:22 PM    1    0.80    0.00    2.39    0.00    0.00    0.80    0.00    0.00    0.00   96.01
+
+08:58:22 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+08:58:32 PM  all    0.65    0.00    2.16    0.00    0.00    0.70    0.00    0.00    0.00   96.50
+08:58:32 PM    0    0.76    0.00    2.59    0.11    0.00    0.65    0.00    0.00    0.00   95.89
+08:58:32 PM    1    0.54    0.00    1.61    0.00    0.00    0.75    0.00    0.00    0.00   97.10
+
+08:58:32 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+08:58:42 PM  all    1.23    0.00    3.08    0.06    0.00    1.45    0.00    0.00    0.00   94.18
+08:58:42 PM    0    1.23    0.00    3.48    0.00    0.00    1.57    0.00    0.00    0.00   93.72
+08:58:42 PM    1    1.34    0.00    2.68    0.00    0.00    1.23    0.00    0.00    0.00   94.74
+
+08:58:42 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+08:58:52 PM  all    1.22    0.00    2.83    0.00    0.00    1.22    0.00    0.00    0.00   94.73
+08:58:52 PM    0    1.00    0.00    2.78    0.00    0.00    1.45    0.00    0.00    0.00   94.77
+08:58:52 PM    1    1.33    0.00    2.88    0.00    0.00    1.11    0.00    0.00    0.00   94.68
+
+08:58:52 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+08:59:02 PM  all    1.13    0.00    3.16    0.00    0.00    1.69    0.00    0.00    0.00   94.02
+08:59:02 PM    0    1.14    0.00    3.64    0.00    0.00    1.82    0.00    0.00    0.00   93.40
+08:59:02 PM    1    1.12    0.00    2.79    0.00    0.00    1.45    0.00    0.00    0.00   94.64
+
+Average:     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+Average:     all    1.04    0.00    2.77    0.03    0.00    1.33    0.00    0.00    0.00   94.83
+Average:       0    1.04    0.00    3.09    0.06    0.00    1.32    0.00    0.00    0.00   94.48
+Average:       1    1.02    0.00    2.46    0.00    0.00    1.31    0.00    0.00    0.00   95.21
+  </pre></td></tr>
+</table>
+<h1>连接数信息</h1>
+<table width=68% border=1 bordercolor=#000000 cellspacing=0px style=border-collapse:collapse>
+<tr>
+    <td>Number of concurrent connections </td>
+<td> 180895</td>
+  </tr>
+</table>
+<h1>系统限制信息</h1>
+<table width=68% border=1 bordercolor=#000000 cellspacing=0px style=border-collapse:collapse>
+<tr><td>
+  <pre style="font-family:Courier New; word-wrap: break-word; white-space: pre-wrap; white-space: -moz-pre-wrap" >
+  #######################################  系统限制最大进程数  #######################################
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 7183
+max locked memory       (kbytes, -l) 64
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 1024
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) 8192
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 7183
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+  </pre></td></tr>
+</table>
+<h1>内存使用信息</h1>
+<table width=68% border=1 bordercolor=#000000 cellspacing=0px style=border-collapse:collapse>
+<tr>
+    <td>Mem_used_rate(%) </td>
+<td> 18%</td>
+  </tr>
+</table>
+<table width=68% border=1 bordercolor=#000000 cellspacing=0px style=border-collapse:collapse>
+<tr><td>
+  <pre style="font-family:Courier New; word-wrap: break-word; white-space: pre-wrap; white-space: -moz-pre-wrap" >
+                total        used        free      shared  buff/cache   available
+Mem:           1.8G        225M        1.2G        9.5M        397M        1.4G
+Low:           1.8G        622M        1.2G
+High:            0B          0B          0B
+Swap:            0B          0B          0B
+Total:         1.8G        225M        1.2G
+  </pre></td></tr>
+</table>
+<table width=68% border=1 bordercolor=#000000 cellspacing=0px style=border-collapse:collapse>
+<tr>
+    <th>Locator </th>
+<th>Size </th>
+<th>Speed </th>
+<th>Form Factor </th>
+<th> Type </th>
+<th> Type Detail</th>
+  </tr>
+<tr>
+    <td>RAM slot #0 </td>
+<td> 2048 MB </td>
+<td> Unknown </td>
+<td> DIMM </td>
+<td> DRAM </td>
+<td> EDO</td>
+  </tr>
+</table>
+<h1>磁盘使用信息</h1>
+<table width=68% border=1 bordercolor=#000000 cellspacing=0px style=border-collapse:collapse>
+<tr>
+    <th>Filesystem </th>
+<th>Type </th>
+<th>Size </th>
+<th> Used </th>
+<th> Avail </th>
+<th> Use% </th>
+<th> Mounted on </th>
+<th> Opts</th>
+  </tr>
+<tr>
+    <td>/dev/mapper/centos-root </td>
+<td> xfs </td>
+<td> 19G </td>
+<td> 1.8G </td>
+<td> 18G </td>
+<td> 10% </td>
+<td> / </td>
+<td> (rw,relatime,attr2,inode64,noquota)</td>
+  </tr>
+<tr>
+    <td>/dev/sda1 </td>
+<td> xfs </td>
+<td> 509M </td>
+<td> 139M </td>
+<td> 370M </td>
+<td> 28% </td>
+<td> /boot </td>
+<td> (rw,relatime,attr2,inode64,noquota)</td>
+  </tr>
+</table>
+<table width=68% border=1 bordercolor=#000000 cellspacing=0px style=border-collapse:collapse>
+<tr><td>
+  <pre style="font-family:Courier New; word-wrap: break-word; white-space: pre-wrap; white-space: -moz-pre-wrap" >
+  NAME            MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda               8:0    0   20G  0 disk 
+├─sda1            8:1    0  512M  0 part /boot
+└─sda2            8:2    0 19.5G  0 part 
+  ├─centos-root 253:0    0   19G  0 lvm  /
+  └─centos-swap 253:1    0  512M  0 lvm  
+sr0              11:0    1  4.3G  0 rom  
+  </pre></td></tr>
+</table>
+<table width=68% border=1 bordercolor=#000000 cellspacing=0px style=border-collapse:collapse>
+<tr><td>
+  <pre style="font-family:Courier New; word-wrap: break-word; white-space: pre-wrap; white-space: -moz-pre-wrap" >
+  dm-0 none
+dm-1 none
+sda noop [deadline] cfq
+sr0 noop [deadline] cfq
+  </pre></td></tr>
+</table>
+<table width=68% border=1 bordercolor=#000000 cellspacing=0px style=border-collapse:collapse>
+<tr><td>
+  <pre style="font-family:Courier New; word-wrap: break-word; white-space: pre-wrap; white-space: -moz-pre-wrap" >
+    PV         VG     Fmt  Attr PSize   PFree
+  /dev/sda2  centos lvm2 a--  <19.50g    0 
+======================  =====  =====  =====  =====  =====  ==========  =======
+  VG     #PV #LV #SN Attr   VSize   VFree
+  centos   1   2   0 wz--n- <19.50g    0 
+======================  =====  =====  =====  =====  =====  ==========  =======
+  LV   VG     Attr       LSize   Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
+  root centos -wi-ao---- <19.00g                                                    
+  swap centos -wi-a----- 512.00m                                                    
+  </pre></td></tr>
+</table>
+<h1>网络流量情况</h1>
+<table width=68% border=1 bordercolor=#000000 cellspacing=0px style=border-collapse:collapse>
+<tr><td>
+  <pre style="font-family:Courier New; word-wrap: break-word; white-space: pre-wrap; white-space: -moz-pre-wrap" >
+  #######################################  网络流量情况  #######################################
+Linux 3.10.0-957.el7.x86_64 (node1) 	12/28/2020 	_x86_64_	(2 CPU)
+
+08:59:03 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+08:59:13 PM        lo      6.69      6.69      0.57      0.57      0.00      0.00      0.00
+08:59:13 PM     ens33      0.30      2.00      0.03      0.12      0.00      0.00      0.00
+
+08:59:13 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+08:59:23 PM        lo      7.10      7.10      0.61      0.61      0.00      0.00      0.00
+08:59:23 PM     ens33      0.00      2.00      0.00      0.12      0.00      0.00      0.00
+
+08:59:23 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+08:59:33 PM        lo      9.30      9.30      0.71      0.71      0.00      0.00      0.00
+08:59:33 PM     ens33      0.10      2.10      0.01      0.12      0.00      0.00      0.00
+
+08:59:33 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+08:59:43 PM        lo      7.10      7.10      0.60      0.60      0.00      0.00      0.00
+08:59:43 PM     ens33      0.10      2.10      0.01      0.12      0.00      0.00      0.00
+
+08:59:43 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+08:59:53 PM        lo      6.40      6.40      0.54      0.54      0.00      0.00      0.00
+08:59:53 PM     ens33      0.00      2.00      0.00      0.12      0.00      0.00      0.00
+
+08:59:53 PM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+09:00:03 PM        lo      6.40      6.40      0.55      0.55      0.00      0.00      0.00
+09:00:03 PM     ens33      0.00      2.00      0.00      0.12      0.00      0.00      0.00
+
+Average:        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+Average:           lo      7.17      7.17      0.60      0.60      0.00      0.00      0.00
+Average:        ens33      0.08      2.03      0.01      0.12      0.00      0.00      0.00
+#######################################  系统资源变化  #######################################
+procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+ 1  0      0   1198      3    394    0    0   396    26  361  579  4  9 86  0  0
+ 4  0      0   1198      3    394    0    0     0    19  449  648  1  5 94  0  0
+ 0  0      0   1198      3    394    0    0     0     7  390  595  1  3 96  0  0
+ 3  0      0   1197      3    394    0    0     0     4  395  589  1  4 95  0  0
+ 0  0      0   1196      3    394    0    0     0     3  402  606  1  3 96  0  0
+ 0  0      0   1196      3    394    0    0     0     7  449  644  1  5 94  0  0
+  </pre></td></tr>
+</table>
+<h1>消耗CPU前十排行</h1>
+<table width=68% border=1 bordercolor=#000000 cellspacing=0px style=border-collapse:collapse>
+<tr><td>
+  <pre style="font-family:Courier New; word-wrap: break-word; white-space: pre-wrap; white-space: -moz-pre-wrap" >
+  Linux 3.10.0-957.el7.x86_64 (node1) 	12/28/2020 	_x86_64_	(2 CPU)
+
+09:00:53 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+09:00:54 PM  all    1.13    0.00    2.82    0.00    0.00    1.69    0.00    0.00    0.00   94.35
+09:00:55 PM  all    1.13    0.00    3.39    0.00    0.00    1.69    0.00    0.00    0.00   93.79
+09:00:56 PM  all    1.68    0.00    3.91    0.00    0.00    1.68    0.00    0.00    0.00   92.74
+09:00:57 PM  all    1.73    0.00    3.47    0.00    0.00    2.31    0.00    0.00    0.00   92.49
+09:00:58 PM  all    1.09    0.00    3.28    0.00    0.00    2.19    0.00    0.00    0.00   93.44
+Average:     all    1.35    0.00    3.37    0.00    0.00    1.91    0.00    0.00    0.00   93.36
+#######################################  消耗CPU前十排行  #######################################
+USER        PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       8114 12.7  6.2 10681596 117288 ?     Ssl  20:59   0:11 /opt/etcd/bin/etcd --cert-file=/opt/etcd/ssl/server.pem --key-file=/opt/etcd/ssl/server-key.pem --peer-cert-file=/opt/etcd/ssl/server.pem --peer-key-file=/opt/etcd/ssl/server-key.pem --trusted-ca-file=/opt/etcd/ssl/ca.pem --peer-trusted-ca-file=/opt/etcd/ssl/ca.pem --logger=zap --enable-v2
+root       6510  5.0  1.1 140656 21500 ?        Ssl  20:52   0:26 /opt/kubernetes/bin/kube-proxy --logtostderr=true --v=4 --log-dir=/opt/kubernetes/logs --hostname-override=192.168.31.102 --cluster-cidr=10.0.0.0/24 --proxy-mode=ipvs --kubeconfig=/opt/kubernetes/cfg/kube-proxy.kubeconfig
+root          9  2.0  0.0      0     0 ?        R    20:51   0:10 [rcu_sched]
+root       3130  1.9  0.2  39472  5524 ?        Ss   20:52   0:10 /usr/lib/systemd/systemd-journald
+root       5784  1.5  0.3 300720  6324 ?        Ssl  20:52   0:07 /usr/bin/vmtoolsd
+root          1  1.1  0.2 125440  3892 ?        Ss   20:51   0:06 /usr/lib/systemd/systemd --switched-root --system --deserialize 22
+root         52  0.9  0.0      0     0 ?        S    20:52   0:05 [kworker/0:2]
+root          3  0.9  0.0      0     0 ?        S    20:51   0:05 [ksoftirqd/0]
+root       3060  0.9  0.0      0     0 ?        S    20:52   0:05 [xfsaild/dm-0]
+root         14  0.9  0.0      0     0 ?        S    20:51   0:05 [ksoftirqd/1]
+  </pre></td></tr>
+</table>
+<h1>消耗内存前十排行</h1>
+<table width=68% border=1 bordercolor=#000000 cellspacing=0px style=border-collapse:collapse>
+<tr><td>
+  <pre style="font-family:Courier New; word-wrap: break-word; white-space: pre-wrap; white-space: -moz-pre-wrap" >
+  #######################################  消耗内存前十排行  #######################################
+USER        PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       8114 12.7  6.2 10681596 117288 ?     Ssl  20:59   0:11 /opt/etcd/bin/etcd --cert-file=/opt/etcd/ssl/server.pem --key-file=/opt/etcd/ssl/server-key.pem --peer-cert-file=/opt/etcd/ssl/server.pem --peer-key-file=/opt/etcd/ssl/server-key.pem --trusted-ca-file=/opt/etcd/ssl/ca.pem --peer-trusted-ca-file=/opt/etcd/ssl/ca.pem --logger=zap --enable-v2
+root       6510  5.0  1.1 140656 21500 ?        Ssl  20:52   0:26 /opt/kubernetes/bin/kube-proxy --logtostderr=true --v=4 --log-dir=/opt/kubernetes/logs --hostname-override=192.168.31.102 --cluster-cidr=10.0.0.0/24 --proxy-mode=ipvs --kubeconfig=/opt/kubernetes/cfg/kube-proxy.kubeconfig
+root       6504  0.2  1.0 573816 19132 ?        Ssl  20:52   0:01 /usr/bin/python2 -Es /usr/sbin/tuned -l -P
+root       8118  0.4  0.8 250604 16116 ?        Ssl  20:59   0:00 /opt/kubernetes/bin/flanneld --ip-masq --etcd-endpoints=https://192.168.31.101:2379,https://192.168.31.102:2379,https://192.168.31.103:2379 -etcd-cafile=/opt/etcd/ssl/ca.pem -etcd-certfile=/opt/etcd/ssl/server.pem -etcd-keyfile=/opt/etcd/ssl/server-key.pem
+polkitd    5787  0.0  0.6 612228 12120 ?        Ssl  20:52   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root       5807  0.0  0.4 473524  8512 ?        Ssl  20:52   0:00 /usr/sbin/NetworkManager --no-daemon
+root       7357  0.0  0.3 161364  6068 ?        Ss   20:53   0:00 sshd: root@notty
+root       7106  0.3  0.3 161364  6128 ?        Ss   20:52   0:01 sshd: root@pts/0,pts/1
+root       6517  0.7  0.3 218536  6004 ?        Ssl  20:52   0:03 /usr/sbin/rsyslogd -n
+root       5784  1.5  0.3 300720  6324 ?        Ssl  20:52   0:07 /usr/bin/vmtoolsd
+TOP10 CPU Resource Process
+  </pre></td></tr>
+</table>
+<h1>磁盘io情况</h1>
+<table width=68% border=1 bordercolor=#000000 cellspacing=0px style=border-collapse:collapse>
+<tr><td>
+  <pre style="font-family:Courier New; word-wrap: break-word; white-space: pre-wrap; white-space: -moz-pre-wrap" >
+  #######################################  磁盘io情况  #######################################
+Linux 3.10.0-957.el7.x86_64 (node1) 	12/28/2020 	_x86_64_	(2 CPU)
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+scd0              0.03         1.90         0.00       1028          0
+sda              19.60       637.85        43.04     344360      23234
+dm-0             11.99       575.07        39.24     310467      21186
+dm-1              0.16         3.84         0.00       2072          0
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+scd0              0.00         0.00         0.00          0          0
+sda               2.40        10.79         5.94        108         59
+dm-0              2.40        10.79         5.94        108         59
+dm-1              0.00         0.00         0.00          0          0
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+scd0              0.00         0.00         0.00          0          0
+sda               3.00         0.00        28.95          0        289
+dm-0              3.50         0.00        28.95          0        289
+dm-1              0.00         0.00         0.00          0          0
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+scd0              0.00         0.00         0.00          0          0
+sda               0.80         0.00         8.00          0         80
+dm-0              0.80         0.00         8.00          0         80
+dm-1              0.00         0.00         0.00          0          0
+
+Device:            tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+scd0              0.00         0.00         0.00          0          0
+sda               1.10         0.00         4.80          0         48
+dm-0              1.10         0.00         4.80          0         48
+dm-1              0.00         0.00         0.00          0          0
+  </pre></td></tr>
+</table>
+<h1>定时任务信息</h1>
+<table width=68% border=1 bordercolor=#000000 cellspacing=0px style=border-collapse:collapse>
+<tr><td>
+  <pre style="font-family:Courier New; word-wrap: break-word; white-space: pre-wrap; white-space: -moz-pre-wrap" >
+  #### 无定时任务 ####
+  </pre></td></tr>
+</table>
+<h1>定时任务脚本内容</h1>
+<table width=68% border=1 bordercolor=#000000 cellspacing=0px style=border-collapse:collapse>
+<tr><td>
+  <pre style="font-family:Courier New; word-wrap: break-word; white-space: pre-wrap; white-space: -moz-pre-wrap" >
+  #### 无定时执行脚本 ####
+  </pre></td></tr>
+</table>
+</body></html>
